@@ -18,7 +18,7 @@ axios.interceptors.response.use(
     }
 
     if (error?.response?.status === 401) {
-        alert("Unauthorized!")
+        alert("Unauthorized!");
     }
 
     if (error?.response?.status === 403) {
